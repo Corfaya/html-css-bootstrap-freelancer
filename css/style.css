@@ -3,3 +3,37 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+:root {
+    --charcoal: #2C3E50;
+    --mint-green: #1ABC9C;
+    --midnight-haze: #3A546D;
+}
+
+.bg-charcoal {
+    background-color: var(--charcoal);
+}
+
+.bg-mint-green {
+    background-color: var(--mint-green);
+}
+
+.bg-midnight-haze {
+    background-color: var(--midnight-haze);
+}
+
+.content {
+    border: 1px solid #000;
+    background-color: burlywood;
+}
+
+.content_header {
+    height: 50px;
+    background-color: firebrick;
+}
+
+header span {
+    width: 50px;
+    height: 20px;
+    background-color: #fff;
+}
