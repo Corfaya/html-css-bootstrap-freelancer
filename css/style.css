@@ -23,17 +23,20 @@
 }
 
 .content {
-    border: 1px solid #000;
+    border: 1px solid purple;
     height: 200px;
     background-color: burlywood;
 }
 
 .content_header {
-    height: 50px;
     background-color: firebrick;
 }
 
-.content_main {
+.content_footer, .content_header {
+    height: 50px;
+}
+
+.content_footer, .content_main {
     background-color: transparent;
 }
 
