@@ -24,12 +24,17 @@
 
 .content {
     border: 1px solid #000;
+    height: 200px;
     background-color: burlywood;
 }
 
 .content_header {
     height: 50px;
     background-color: firebrick;
+}
+
+.content_main {
+    background-color: transparent;
 }
 
 header span {
