@@ -1,3 +1,4 @@
+/* CSS RESET AND GENERAL SETTINGS */
 * {
     margin: 0;
     padding: 0;
@@ -10,6 +11,7 @@
     --midnight-haze: #3A546D;
 }
 
+/* BG AREA */
 .bg-charcoal {
     background-color: var(--charcoal);
 }
@@ -22,6 +24,7 @@
     background-color: var(--midnight-haze);
 }
 
+/* LAYOUT ELEMENTS */
 .content {
     border: 1px solid purple;
     height: 200px;
