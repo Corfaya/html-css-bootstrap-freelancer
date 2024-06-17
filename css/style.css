@@ -9,6 +9,7 @@
     --charcoal: #2C3E50;
     --mint-green: #1ABC9C;
     --midnight-haze: #3A546D;
+    --light-grey: #d6d6d6;
 }
 
 /* BG AREA */
@@ -50,4 +51,19 @@
     height: 3px;
     background-color: black;
     vertical-align: middle;
+}
+
+::placeholder {
+    color: #000;
+}
+
+input {
+    display: block;
+    width: 100%;
+}
+
+input, textarea {
+    border: none;
+    border-bottom: 1px solid var(--light-grey);
+    padding: 10px 0;
 }
