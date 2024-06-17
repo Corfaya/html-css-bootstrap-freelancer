@@ -26,15 +26,11 @@
 }
 
 /* LAYOUT ELEMENTS */
-.content {
-    background-color: burlywood;
-}
-
 .content_footer {
     height: 50px;
 }
 
-.content_footer, .content_main {
+.content_footer {
     background-color: transparent;
 }
 
@@ -80,4 +76,13 @@ input, textarea {
 
 .max_w_150 {
     max-width: 150px;
+}
+
+.btn_border_style {
+    border: 1px solid white;
+}
+
+.btn_border_style:hover {
+    background-color: #fff !important;
+    color: var(--mint-green) !important;
 }
