@@ -42,3 +42,12 @@
 .font_size_nav {
     font-size: 12px;
 }
+
+.lines:before, .lines:after {
+    display: inline-block;
+    content: '';
+    width: 100px;
+    height: 3px;
+    background-color: black;
+    vertical-align: middle;
+}
